@@ -1,1 +1,640 @@
-afdgfdd
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Diamonds - Premium Digital Design & Development Agency | From Concept to Code</title>
+    <meta name="title" content="Diamonds - Premium Digital Design & Development Agency | From Concept to Code">
+    <meta name="description" content="Transform your vision into reality with Diamonds. We offer brand design, UI/UX web design, and digital marketing services. Expert team delivering beautiful, high-performance applications in Chennai, India.">
+    <meta name="keywords" content="web design, brand design, logo design, UI/UX design, digital marketing, Chennai web design, web development, app development, SEO services, digital agency India">
+    <meta name="author" content="Diamonds Digital Agency">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+   
+    <meta property="og:title" content="Diamonds - Premium Digital Design & Development Agency">
+    <meta property="og:description" content="Transform your vision into reality. Brand design, UI/UX, and digital marketing services. High-performance applications crafted with excellence.">
+   
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Diamonds Digital Agency">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+   
+    <meta property="twitter:title" content="Diamonds - Premium Digital Design & Development Agency">
+    <meta property="twitter:description" content="Transform your vision into reality. Brand design, UI/UX, and digital marketing services.">
+   
+    
+    <!-- Canonical URL -->
+   
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><g transform='rotate(90 32 32)'><path d='M32 12 L58 32 L32 52 L6 32 Z' fill='%23ffffff' stroke='%23000000' stroke-width='2'/></g></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><g transform='rotate(90 32 32)'><path d='M32 12 L58 32 L32 52 L6 32 Z' fill='%23ffffff' stroke='%23000000' stroke-width='2'/></g></svg>">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=2">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Diamonds Digital Agency",
+      "alternateName": "Diamonds",
+    
+      "description": "Premium digital design and development agency offering brand design, UI/UX, and digital marketing services.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9940089967",
+        "contactType": "Customer Service",
+        "email": "hello@diamonds.com",
+        "availableLanguage": ["English", "Tamil"]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/diamonds",
+        "https://www.instagram.com/diamonds"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand & Logo Design",
+              "description": "Complete visual identity creation with logo design and brand guidelines"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "UI/UX & Web Design",
+              "description": "User-centric interface design and responsive web development"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Marketing",
+              "description": "SEO, content strategy, and growth marketing services"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <style>
+        /* Force override any caching issues */
+        .hero {
+            background: radial-gradient(125% 125% at 50% 100%, #000000 40%, #000000 100%) !important;
+        }
+        .hero::before {
+            content: '' !important;
+            position: absolute !important;
+            inset: 0 !important;
+            z-index: 0 !important;
+            pointer-events: none !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="logo">
+            <svg width="40" height="40" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diamonds logo">
+                <defs>
+                    <linearGradient id="grad1" x1="0" x2="1" y1="0" y2="1">
+                        <stop offset="0%" stop-color="#ffffff" />
+                        <stop offset="50%" stop-color="#e6e6e6" />
+                        <stop offset="100%" stop-color="#cfcfcf" />
+                    </linearGradient>
+                </defs>
+                <g transform="rotate(90 32 32)">
+                    <path d="M32 12 L58 32 L32 52 L6 32 Z" fill="url(#grad1)" />
+                    <polygon points="32,16 48,28 32,32 16,28" fill="rgba(255,255,255,0.3)" />
+                </g>
+            </svg>
+            <span style="font-size: 1rem;">DIAMONDS</span>
+        </div>
+        <nav class="nav">
+            <a href="#home" class="nav-link active">HOME</a>
+            <a href="#services" class="nav-link">SERVICES</a>
+            <a href="#work" class="nav-link">OUR WORK</a>
+            <a href="#about" class="nav-link">ABOUT US</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+        <!-- Mobile menu toggle (visible on small screens) -->
+        <button type="button" class="mobile-toggle" aria-label="Open navigation" aria-expanded="false">
+            <span class="hamburger"></span>
+        </button>
+        <!-- Mobile menu (hidden by default) -->
+        <div class="mobile-menu" aria-hidden="true">
+            <a href="#home" class="nav-link">HOME</a>
+            <a href="#services" class="nav-link">SERVICES</a>
+            <a href="#work" class="nav-link">OUR WORK</a>
+            <a href="#about" class="nav-link">ABOUT US</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Decorative mascot character -->
+        <div class="hero-mascot" aria-hidden="true">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- Cute white ghost/character -->
+                <ellipse cx="100" cy="120" rx="70" ry="80" fill="white"/>
+                <!-- Body waves -->
+                <path d="M30,170 Q40,160 50,170 T70,170 T90,170 T110,170 T130,170 T150,170 T170,170 L170,120 Q170,50 100,50 Q30,50 30,120 Z" fill="white"/>
+                <!-- Left eye -->
+                <ellipse cx="70" cy="100" rx="18" ry="22" fill="black"/>
+                <ellipse cx="75" cy="95" rx="8" ry="10" fill="white"/>
+                <!-- Right eye -->
+                <ellipse cx="120" cy="95" rx="18" ry="22" fill="black"/>
+                <ellipse cx="125" cy="90" rx="8" ry="10" fill="white"/>
+                <!-- Sparkles -->
+                <circle cx="160" cy="70" r="4" fill="#60a5fa" opacity="10.8"/>
+                <circle cx="180" cy="80" r="3" fill="#93c5fd" opacity="13.6"/>
+                <circle cx="170" cy="100" r="5" fill="#60a5fa" opacity="13.7"/>
+            </svg>
+        </div>
+
+        <!-- Decorative lines on the right -->
+        <div class="hero-lines" aria-hidden="true"></div>
+
+        <div class="hero-content-centered">
+            <!-- Product Hunt badges -->
+            <div class="hero-badges">
+                <span class="product-hunt-badge">🏆 PRODUCT HUNT</span>
+                <span class="product-hunt-badge">⭐ #1 Product of the Day</span>
+            </div>
+
+            <!-- Main heading -->
+            <h1 class="hero-heading-large">
+                Learn Anything,<br>
+                <span class="hero-heading-personalized">Personalized</span>
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="hero-subtitle-large">The world first personal audio agent, designed for learning</p>
+
+            <!-- CTA Button -->
+            <div class="hero-cta-center">
+                <a href="#contact" class="btn-get-started">Get started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section id="services" class="services-overview">
+        <div class="container">
+            <h2 class="section-title">An All-in-One Solution</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="10" y="15" width="40" height="30" rx="2"/>
+                            <path d="M20 25h20M20 32h15"/>
+                        </svg>
+                    </div>
+                    <h3>Brand & Logo Design</h3>
+                    <p>We craft the visual identity your business deserves. A memorable logo and strong brand guidelines are the foundation of every successful project.</p>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="15" y="10" width="30" height="40" rx="3"/>
+                            <path d="M20 20h20M20 28h20M20 36h15"/>
+                            <circle cx="30" cy="45" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>UI/UX & Web Design</h3>
+                    <p>We design beautiful, intuitive, and user-centric interfaces. Your users will get a seamless experience on any device, designed to convert.</p>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="30" cy="20" r="8"/>
+                            <path d="M18 45c0-6.6 5.4-12 12-12s12 5.4 12 12"/>
+                            <path d="M42 28v8M38 32h8"/>
+                        </svg>
+                    </div>
+                    <h3>CRM Solutions</h3>
+                    <p>Streamline your customer relationships with powerful CRM tools. We implement and customize solutions that help you manage leads, track interactions, and boost customer satisfaction.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="10" y="10" width="40" height="40" rx="2"/>
+                            <path d="M20 20l5 5-5 5M30 30h10"/>
+                        </svg>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>We help your product find and grow its audience. From SEO and content strategy to paid acquisition and analytics, we deliver measurable growth that scales.</p>
+                </div>
+
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Services Detail Section -->
+    <section class="services-detail">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What We Do</h2>
+                <p class="section-subtitle">We offer three core services that work together to create a complete, cohesive digital product.</p>
+            </div>
+
+            <div class="service-detail">
+                <div class="service-detail-content">
+                    <span class="service-number">01</span>
+                    <h3>Build a <span style="color: rgb(171, 108, 47);">Brand </span>That Lasts</h3>
+                    <p>Your brand is more than just a logo. It's the feeling people get when they interact with your company. We start at the core, defining your mission and market, to create a complete visual identity that tells your story.</p>
+                    <ul class="service-includes">
+                        <li>Logo Design (Multiple concepts and revisions)</li>
+                        <li>Brand Style Guide (Colors, Typography, Voice)</li>
+                        <li>Business Card & Stationery Design</li>
+                        <li>Social Media Kit (Profile pictures, banners)</li>
+                    </ul>
+                </div>
+                <div class="service-detail-visual">
+                    <div class="visual-box"></div>
+                </div>
+            </div>
+
+            <div class="service-detail">
+                <div class="service-detail-visual">
+                    <!-- use st2.png for the second visual -->
+                    <div class="visual-box st2"></div>
+                </div>
+                <div class="service-detail-content">
+                    <span class="service-number">02</span>
+                    <h3>Design <span style="color: rgb(171, 108, 47);"> That Delights</span> and Converts</h3>
+                    <p>A great website is beautiful and functional. Our human-centered design process focuses on your user. We create wireframes, prototypes, and high-fidelity designs that are intuitive, accessible, and optimized to turn visitors into customers.</p>
+                    <ul class="service-includes">
+                        <li>User Research & Persona Creation</li>
+                        <li>Wireframing & Prototyping</li>
+                        <li>High-Fidelity UI Design</li>
+                        <li>Responsive (Mobile-First) Design</li>
+                        <li>Interaction & Animation Design</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-detail">
+                <div class="service-detail-content">
+                    <span class="service-number">03</span>
+                    <h3>Digital <span style="color: rgb(171, 108, 47);">Growth & Performance</span> Marketing</h3>
+                    <p>We combine data-driven strategy, creative content, and targeted advertising to attract, convert, and retain customers. Our approach focuses on measurable ROI and continuous optimization.</p>
+                    <ul class="service-includes">
+                        <li><strong>SEO & Content:</strong> Technical SEO, content strategy, on-page optimization</li>
+                        <li><strong>Paid Media:</strong> Google Ads, Meta Ads, display & retargeting campaigns</li>
+                        <li><strong>Social & Community:</strong> Organic strategy, community building, influencer partnerships</li>
+                        <li><strong>Email & CRM:</strong> Lifecycle email, automation, segmentation</li>
+                        <li><strong>Analytics & Growth:</strong> Conversion tracking, A/B testing, attribution modeling</li>
+                    </ul>
+                </div>
+                <div class="service-detail-visual">
+                    <!-- use st3.png for the third visual -->
+                    <div class="visual-box st3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="work" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proof is in the Pixels</h2>
+                <p class="section-subtitle">We're proud of our work. Take a look at some of the digital experiences we've crafted for our clients.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/image11.png" alt="Wealth Empires" />
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Terravia</h3>
+                        <div class="portfolio-tags">
+                            <span>Logo Design</span>
+                            <span>Web Design</span>
+                            <span>Digital Marketing</span>
+                            
+                        </div>
+                        <a class="btn-text" href="https://terravia-eta.vercel.app/" target="_blank" rel="noopener">View Case Study →</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/image123.png" alt="Linktree" />
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Linktree</h3>
+                        <div class="portfolio-tags">
+                            <span>Logo Design</span>
+                            <span>Web Design</span>
+                            <span>Digital Marketing</span>
+                        </div>
+                        <a class="btn-text" href="https://linktree-one-ochre.vercel.app/" target="_blank" rel="noopener">View Case Study →</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                         <img src="img/st8.jpg" alt="Ominfood" />
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Ominfood</h3>
+                        <div class="portfolio-tags"> 
+                            <span>Logo Design</span>
+                            <span>Brand Identity</span>
+                            <span>Website</span>
+                        </div>
+                        <a class="btn-text" href="https://omnifood-website-rho.vercel.app/" target="_blank" rel="noopener">View Case Study →</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                   <div class="portfolio-image">
+                         <img src="img/911.jpg" alt="Ominfood" />
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Stayscape</h3>
+                        <div class="portfolio-tags">
+                            <span>Brand Identity</span>
+                            <span>Web Platform</span>
+                        </div>
+                        <a class="btn-text" href="https://stayscape-six.vercel.app/" target="_blank" rel="noopener">View Case Study →</a>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="process-header">
+                <h2 class="section-title">Your Idea, <span style="color: rgb(171, 108, 47);">Our Expertise.</span> One Seamless Process.</h2>
+                <p class="section-subtitle">A focused, four-step approach to take your idea from concept to launch — clear, collaborative, and measurable.</p>
+            </div>
+
+            <div class="process-grid" aria-hidden="false">
+
+                <div class="process-step">
+                    <div class="step-num">01</div>
+                    <div class="step-body">
+                        <h3>Discover</h3>
+                        <p>We listen. We learn your goals, audience, and vision.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-num">02</div>
+                    <div class="step-body">
+                        <h3>Design</h3>
+                        <p>We create. From logo concepts to high-fidelity web prototypes.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-num">03</div>
+                    <div class="step-body">
+                        <h3>Develop</h3>
+                        <p>We build. Our full-stack team writes the code to make it all work perfectly.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-num">04</div>
+                    <div class="step-body">
+                        <h3>Launch</h3>
+                        <p>We deploy. We test everything and launch your project to the world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">We're the Creative Nerds You'll Love to Work With</h2>
+                
+                <div class="about-mission">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to empower startups and small businesses with the high-quality design and technology they deserve. We believe that a seamless process—from logo to launch—leads to a superior product. We are your partners, not just your vendors.</p>
+                </div>
+
+                <div class="about-values">
+                    <h3>Our Values</h3>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 5L25 15L35 17L27 25L29 35L20 30L11 35L13 25L5 17L15 15L20 5Z"/>
+                                </svg>
+                            </div>
+                            <h4>Quality First</h4>
+                            <p>We are obsessed with pixel-perfect details and clean code.</p>
+                        </div>
+
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="8" y="10" width="24" height="20" rx="2"/>
+                                    <path d="M8 15h24M15 10v-3M25 10v-3"/>
+                                </svg>
+                            </div>
+                            <h4>Clear Communication</h4>
+                            <p>You'll never be in the dark. We are transparent and collaborative.</p>
+                        </div>
+
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="15" cy="20" r="5"/>
+                                    <circle cx="25" cy="20" r="5"/>
+                                    <path d="M20 20h5"/>
+                                </svg>
+                            </div>
+                            <h4>Partnership</h4>
+                            <p>Your success is our success. We're in this together.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's Create Something Together</h2>
+                    <p class="section-subtitle">Have a project in mind? Or just want to learn more? We'd love to hear from you.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <h4>Email</h4>
+                            <a href="mailto:hello@diamonds.com" style="color: #fff;text-decoration: none;">hello@diamonds.com</a>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>Phone</h4>
+                            <a href="tel:+919940089967" style="color: #fff;text-decoration: none;">+91 9940089967</a>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>Location</h4>
+                            <p>Remote Work in Chennai, India</p>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>Social</h4>
+                            <div class="social-links">
+                                <a href="#">LinkedIn</a>
+                                <a href="#">Instagram</a>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Embedded map (replaces contact form) -->
+                <div class="contact-map" aria-label="Map showing our location">
+                    <iframe
+                        title="Diamonds - Chennai"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.77490904504!2d79.87932745!3d13.04780875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1702000000000!5m2!1sen!2sin"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                    <p class="map-link"><a href="https://www.google.com/maps/place/Chennai,+Tamil+Nadu/@13.0827,80.2707,12z" target="_blank" rel="noopener">View larger map</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-grid">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to build something amazing?</h2>
+                    <p class="cta-subtitle">Let's have a short conversation — no obligations, just honest ideas and a clear next step.</p>
+                    <div class="cta-actions">
+                        <a href="#contact" class="btn-large btn-primary">Get a Free Consultation</a>
+                        <a href="#work" class="btn-large btn-outline">See Our Work</a>
+                    </div>
+                </div>
+
+                <div class="cta-visual" aria-hidden="true">
+                    <div class="cta-platform"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer: modern high-contrast black -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="f-left">
+                    <div class="f-logo">
+                        <svg width="40" height="40" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diamonds logo">
+                            <defs>
+                                <linearGradient id="grad2" x1="0" x2="1" y1="0" y2="1">
+                                    <stop offset="0%" stop-color="#ffffff" />
+                                    <stop offset="50%" stop-color="#e6e6e6" />
+                                    <stop offset="100%" stop-color="#cfcfcf" />
+                                </linearGradient>
+                            </defs>
+                            <g transform="rotate(90 32 32)">
+                                <path d="M32 12 L58 32 L32 52 L6 32 Z" fill="url(#grad2)" />
+                                <polygon points="32,16 48,28 32,32 16,28" fill="rgba(255,255,255,0.3)" />
+                            </g>
+                        </svg>
+                        <span class="f-brand">DIAMONDS</span>
+                    </div>
+                    <p class="f-desc">Focused digital products — clear results, thoughtfully built.</p>
+
+                   
+                </div>
+
+                <div class="f-mid">
+                    <h4>Explore</h4>
+                    <ul class="f-links">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="f-right">
+                    <h4>Contact</h4>
+                    <a href="mailto:hello@diamonds.com" class="f-contact" style="text-decoration: none;">hello@diamonds.com</a>
+                    <a href="tel:+919940089967" class="f-contact" style="text-decoration: none;">+91 9940089967</a>
+                    <p class="f-contact">Remote Work in Chennai, India</p>
+
+                    <div class="f-social">
+                        <a href="#" class="social-btn" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="#" class="social-btn" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="muted">&copy; 2025 Diamonds</p>
+                <nav class="footer-mini-nav" aria-label="Footer legal">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
